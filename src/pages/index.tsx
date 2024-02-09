@@ -1,6 +1,7 @@
 import react from "react";
 import { Header } from "@/components/header";
 import React from "react";
+import { SocialIcons } from "@/components/socialIcons";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
           Vamos transformar ideias em código?
         </h1>
         <h2 className="text-green-600 text-xl mt-2">Full Stack Developer</h2>
+
+        <SocialIcons />
       </section>
 
       <section className="w-[80vw] h-[90dvh] flex flex-col m-auto justify-center items-center font-mono">
