@@ -13,6 +13,18 @@ const MOCK_TECHS = [
   {
     name: "TypeScript",
   },
+  {
+    name: "React.js",
+  },
+  {
+    name: "Next.js",
+  },
+  {
+    name: "UI",
+  },
+  {
+    name: "TypeScript",
+  },
 ];
 
 export const TechBadge = () => {

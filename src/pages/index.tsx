@@ -5,6 +5,8 @@ import { SocialIcons } from "@/components/socialIcons";
 import { GoArrowRight } from "react-icons/go";
 import { TechBadge } from "@/components/techBadge";
 import Image from "next/image";
+import { Skills } from "@/components/skills";
+import { TitleSection } from "@/components/titleSection";
 
 export default function Home() {
   return (
@@ -67,13 +69,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="skills w-full h-[100dvh] bg-[#222222]">
-        <div>
-        <span>../ conhecimentos</span>
-        <h2>Conhecimentos</h2>
+      <section className="skills w-full h-[100dvh] bg-[#222222] flex justify-center items-center font-mono">
+        <div className="w-[70vw] ">
+          <TitleSection title="Conhecimentos" subTitle="competências" />
 
+          <div className="grid grid-cols-[minmax(3, 1fr))]">
+            <Skills />
+          </div>
         </div>
-
       </section>
     </>
   );
