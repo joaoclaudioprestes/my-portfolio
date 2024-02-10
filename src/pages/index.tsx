@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <section className="h-[90dvh] flex flex-col justify-center items-center font-mono">
+      <section className="hero h-[90dvh] flex flex-col justify-center items-center font-mono">
         <h2 className="text-gray-400 text-2xl">Oi, eu sou João!</h2>
         <h1 className="text-gray-300 text-3xl font-bold text-center">
           Vamos transformar ideias em código?
@@ -18,7 +18,7 @@ export default function Home() {
         <h2 className="text-green-600 text-xl mt-2">Full Stack Developer</h2>
       </section>
 
-      <section className="about w-full h-[100dvh] flex justify-center items-center ">
+      <section className="about w-full h-[90dvh] flex justify-center items-center ">
         <div className="w-[90vw] flex flex-col-reverse justify-center items-center gap-6 md:flex-row md:w-[70vw]">
           <div className="w-[90%]">
             <h2 className="text-green-600 text-xl font-bold md:text-2xl">
@@ -56,6 +56,10 @@ export default function Home() {
             <Image src={"/photo-programer.jpg"} alt="Foto programador" width={150} height={150} layout="responsive" className="rounded-sm" />
           </div>
         </div>
+      </section>
+
+      <section>
+        
       </section>
     </>
   );
