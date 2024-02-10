@@ -58,8 +58,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
-        
+      <section className="skills w-full h-[90dvh] bg-[#222222] text-center">
+        <h1>testando</h1>
       </section>
     </>
   );
