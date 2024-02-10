@@ -58,7 +58,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="skills w-full h-[90dvh] bg-[#222222] text-center">
+      <section className="skills w-full h-[755px] bg-[#222222] text-center">
         <h1>testando</h1>
       </section>
     </>
