@@ -18,7 +18,7 @@ export default function Home() {
         <h2 className="text-green-600 text-xl mt-2">Full Stack Developer</h2>
       </section>
 
-      <section className="w-[80vw] h-[90dvh] flex m-auto justify-center items-center font-mono gap-3">
+      <section className="w-[80vw] h-[90dvh] flex m-auto justify-center items-center font-mono gap-3 sm: flex-col">
         <div className="w-2/3">
           <h2 className="text-2xl text-green-600">
             Olá, conheça um pouco sobre mim!
