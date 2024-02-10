@@ -18,13 +18,13 @@ export default function Home() {
         <h2 className="text-green-600 text-xl mt-2">Full Stack Developer</h2>
       </section>
 
-      <section className="about w-full h-[755px] flex justify-center items-center my-9">
-        <div className="w-[90vw] flex flex-col-reverse justify-center items-center gap-6 md:flex-row md:w-[80vw]">
+      <section className="about w-full h-[800px] flex justify-center items-center">
+        <div className="w-[90vw] flex flex-col-reverse justify-center items-center gap-6 md:flex-row md:w-[70vw]">
           <div className="w-[90%]">
-            <h2 className="text-green-600 text-xl font-bold">
+            <h2 className="text-green-600 text-xl font-bold md:text-2xl">
               # Conheça um pouco sobre mim...
             </h2>
-            <p className="text-white text-md mt-4">
+            <p className="text-white text-md mt-4 md:text-lg">
               Desenvolvedor desde 2023 e estudante de Ciência da Computação. Em
               minha jornada acadêmica, busco constantemente a evolução na área
               Tech, explorando diariamente novas tecnologias e progredindo em meio
@@ -51,7 +51,8 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-[90%] md:w-[50%]">
+          <div className="w-[90%] md:w-[80%]">
+            <span className="relative top-9 left-2 px-3 py-1 bg-white rounded-full text-gray">Jovem programador</span>
             <Image src={"/photo-programer.jpg"} alt="Foto programador" width={150} height={150} layout="responsive" className="rounded-sm" />
           </div>
         </div>
