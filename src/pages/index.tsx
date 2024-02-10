@@ -18,7 +18,7 @@ export default function Home() {
         <h2 className="text-green-600 text-xl mt-2">Full Stack Developer</h2>
       </section>
 
-      <section className="about w-full h-[90dvh] flex justify-center items-center ">
+      <section className="about w-full h-[100dvh] flex justify-center items-center ">
         <div className="w-[90vw] flex flex-col-reverse justify-center items-center gap-6 md:flex-row md:w-[70vw]">
           <div className="w-[90%]">
             <h2 className="text-green-600 text-xl font-bold md:text-2xl">
@@ -27,10 +27,10 @@ export default function Home() {
             <p className="text-white text-md mt-4 md:text-lg">
               Desenvolvedor desde 2023 e estudante de Ciência da Computação. Em
               minha jornada acadêmica, busco constantemente a evolução na área
-              Tech, explorando diariamente novas tecnologias e progredindo em meio
-              a descobertas contínuas. Desde o início, aplico e registro meu
-              aprendizado por meio de diversos projetos. Convido você a conferir
-              um vislumbre do meu conhecimento em ação. 🚀
+              Tech, explorando diariamente novas tecnologias e progredindo em
+              meio a descobertas contínuas. Desde o início, aplico e registro
+              meu aprendizado por meio de diversos projetos. Convido você a
+              conferir um vislumbre do meu conhecimento em ação. 🚀
             </p>
 
             <div className="flex flex-row gap-2 mt-4 max-w-[50%]">
@@ -52,14 +52,28 @@ export default function Home() {
           </div>
 
           <div className="w-[90%]">
-            <span className="relative top-9 left-2 px-3 py-1 bg-white rounded-full text-gray text-sm">Jovem programador</span>
-            <Image src={"/photo-programer.jpg"} alt="Foto programador" width={150} height={150} layout="responsive" className="rounded-sm" />
+            <span className="relative top-9 left-2 px-3 py-1 bg-white rounded-full text-gray text-sm">
+              Jovem programador
+            </span>
+            <Image
+              src={"/photo-programer.jpg"}
+              alt="Foto programador"
+              width={150}
+              height={150}
+              layout="responsive"
+              className="rounded-sm"
+            />
           </div>
         </div>
       </section>
 
-      <section className="skills w-full h-[755px] bg-[#222222] text-center">
-        <h1>testando</h1>
+      <section className="skills w-full h-[100dvh] bg-[#222222]">
+        <div>
+        <span>../ conhecimentos</span>
+        <h2>Conhecimentos</h2>
+
+        </div>
+
       </section>
     </>
   );
