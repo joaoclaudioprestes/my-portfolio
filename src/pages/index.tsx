@@ -18,8 +18,8 @@ export default function Home() {
         <h2 className="text-green-600 text-xl mt-2">Full Stack Developer</h2>
       </section>
 
-      <section className="about w-full h-[90dvh] flex justify-center items-center md:h-[755px]">
-        <div className="w-[90vw] flex flex-col-reverse justify-center items-center gap-6 md:flex-row">
+      <section className="about w-full h-full flex justify-center items-center my-9">
+        <div className="w-[90vw] flex flex-col-reverse justify-center items-center gap-6 md:flex-row md:w-[80vw]">
           <div className="w-[90%]">
             <h2 className="text-green-600 text-xl font-bold">
               # Conheça um pouco sobre mim...
@@ -51,7 +51,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="max-w-[40%]">
+          <div className="w-[90%] md:w-[50%]">
             <Image src={"/photo-programer.jpg"} alt="Foto programador" width={150} height={150} layout="responsive" className="rounded-sm" />
           </div>
         </div>
