@@ -22,8 +22,8 @@ export const Header = () => {
           <Image
             src="/logo.svg"
             alt="Logo - João Prestes"
-            width={120}
-            height={120}
+            width={140}
+            height={140}
           />
         </Link>
       </div>
