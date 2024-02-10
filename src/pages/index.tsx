@@ -51,8 +51,8 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-[90%] md:w-[80%]">
-            <span className="relative top-9 left-2 px-3 py-1 bg-white rounded-full text-gray">Jovem programador</span>
+          <div className="w-[90%]">
+            <span className="relative top-9 left-2 px-3 py-1 bg-white rounded-full text-gray text-sm">Jovem programador</span>
             <Image src={"/photo-programer.jpg"} alt="Foto programador" width={150} height={150} layout="responsive" className="rounded-sm" />
           </div>
         </div>
