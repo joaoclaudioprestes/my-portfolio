@@ -18,7 +18,7 @@ export default function Home() {
         <h2 className="text-green-600 text-xl mt-2">Full Stack Developer</h2>
       </section>
 
-      <section className="about w-full h-full flex justify-center items-center my-9">
+      <section className="about w-full h-[755px] flex justify-center items-center my-9">
         <div className="w-[90vw] flex flex-col-reverse justify-center items-center gap-6 md:flex-row md:w-[80vw]">
           <div className="w-[90%]">
             <h2 className="text-green-600 text-xl font-bold">
