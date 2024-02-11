@@ -7,6 +7,7 @@ import { TechBadge } from "@/components/techBadge";
 import Image from "next/image";
 import { Skills } from "@/components/skills";
 import { TitleSection } from "@/components/titleSection";
+import { Divider } from "@/components/divider";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
       </section>
 
       <section className="about w-full h-[100dvh] flex justify-center items-center ">
-        <div className="w-[90vw] flex flex-col-reverse justify-center items-center gap-6 md:flex-row md:w-[70vw]">
+        <div className="w-[90vw] flex flex-col-reverse justify-center items-center gap-6 md:flex-row md:w-[60vw]">
           <div className="w-[90%]">
             <h2 className="text-green-600 text-xl font-bold md:text-2xl">
               # Conheça um pouco sobre mim...
@@ -70,7 +71,7 @@ export default function Home() {
       </section>
 
       <section className="skills w-full h-auto bg-[#111827] flex justify-center items-center font-mono py-[10rem]">
-        <div className="w-[70vw] ">
+        <div className="w-[70vw] md:w-[60vw]">
           <TitleSection title="Conhecimentos" subTitle="competências" />
 
           <div className="flex flex-wrap gap-3 mt-6">
@@ -79,11 +80,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full h-auto bg-[#111827] justify-center items-center font-mono py-[10rem]">
-        <div className="w-[90vw]">
-          <TitleSection title="Projetos" subTitle="destaques" />
+      <section className="projects w-full h-auto bg-[#111827] flex flex-col justify-center items-center font-mono py-[10rem]">
+        <div className="w-[90vw] md:w-[60vw]">
+          <TitleSection title="Projetos em destaque..." subTitle="destaques" />
+          <Divider />
+          
         </div>
-        
       </section>
     </>
   );
