@@ -8,6 +8,7 @@ import Image from "next/image";
 import { Skills } from "@/components/skills";
 import { TitleSection } from "@/components/titleSection";
 import { Divider } from "@/components/divider";
+import { Highlights } from "@/components/highlights";
 
 export default function Home() {
   return (
@@ -84,7 +85,7 @@ export default function Home() {
         <div className="w-[90vw] md:w-[60vw]">
           <TitleSection title="Projetos em destaque..." subTitle="destaques" />
           <Divider />
-          
+          <Highlights />
         </div>
       </section>
     </>
