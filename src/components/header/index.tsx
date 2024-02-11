@@ -11,7 +11,7 @@ const NAV_ITEMS = [
   {
     label: "Projetos",
     href: "/projects",
-  }
+  },
 ];
 
 export const Header = () => {

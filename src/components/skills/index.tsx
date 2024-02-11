@@ -1,6 +1,5 @@
-import { Skill } from "./skill"
-import { DiHtml5, DiCss3, DiJavascript1 } from "react-icons/di"
-
+import { Skill } from "./skill";
+import { DiHtml5, DiCss3, DiJavascript1 } from "react-icons/di";
 
 const MOCK_SKILLS = [
   {
@@ -33,14 +32,14 @@ const MOCK_SKILLS = [
     icon: <DiJavascript1 />,
     experience: 3,
   },
-]
+];
 
 export const Skills = () => {
   return (
     <>
-      {MOCK_SKILLS.map(skill => (
-        <Skill key={skill.name} {...skill}/>
+      {MOCK_SKILLS.map((skill) => (
+        <Skill key={skill.name} {...skill} />
       ))}
     </>
-  )
-}
+  );
+};

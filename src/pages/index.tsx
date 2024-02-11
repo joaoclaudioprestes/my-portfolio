@@ -9,6 +9,7 @@ import { Skills } from "@/components/skills";
 import { TitleSection } from "@/components/titleSection";
 import { Divider } from "@/components/divider";
 import { Highlights } from "@/components/highlights";
+import { LinkEdit } from "@/components/linkEdit";
 
 export default function Home() {
   return (
@@ -37,9 +38,7 @@ export default function Home() {
               conferir um vislumbre do meu conhecimento em ação. 🚀
             </p>
 
-            <div className="flex flex-row flex-wrap gap-2 mt-4 w-[70%]">
-              <TechBadge />
-            </div>
+            <TechBadge />
 
             <div className="flex gap-6 items-baseline">
               <button>
@@ -75,7 +74,7 @@ export default function Home() {
         <div className="w-[70vw] md:w-[60vw]">
           <TitleSection title="Conhecimentos" subTitle="competências" />
 
-          <div className="flex flex-wrap gap-3 mt-6">
+          <div className="flex justify-center md:justify-normal gap-3 flex-col md:flex-row flex-wrap mt-6">
             <Skills />
           </div>
         </div>
@@ -86,6 +85,7 @@ export default function Home() {
           <TitleSection title="Projetos em destaque..." subTitle="destaques" />
           <Divider />
           <Highlights />
+          <LinkEdit nameLink="Veja todos os meus projeto" srcLink="#" />
         </div>
       </section>
     </>
