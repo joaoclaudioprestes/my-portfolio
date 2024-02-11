@@ -35,7 +35,7 @@ export default function Home() {
               conferir um vislumbre do meu conhecimento em ação. 🚀
             </p>
 
-            <div className="flex flex-row gap-2 mt-4 max-w-[50%]">
+            <div className="flex flex-row flex-wrap gap-2 mt-4 w-[70%]">
               <TechBadge />
             </div>
 
@@ -69,14 +69,21 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="skills w-full h-[100dvh] bg-[#222222] flex justify-center items-center font-mono">
+      <section className="skills w-full h-auto bg-[#111827] flex justify-center items-center font-mono py-[10rem]">
         <div className="w-[70vw] ">
           <TitleSection title="Conhecimentos" subTitle="competências" />
 
-          <div className="grid grid-cols-[minmax(3, 1fr))]">
+          <div className="flex flex-wrap gap-3 mt-6">
             <Skills />
           </div>
         </div>
+      </section>
+
+      <section className="w-full h-auto bg-[#111827] justify-center items-center font-mono py-[10rem]">
+        <div className="w-[90vw]">
+          <TitleSection title="Projetos" subTitle="destaques" />
+        </div>
+        
       </section>
     </>
   );
