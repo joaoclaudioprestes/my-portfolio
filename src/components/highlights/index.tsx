@@ -6,14 +6,12 @@ const MOCK_PROJECTS = [
     img: "/photo-programer.jpg",
     description:
       "BookWise é uma plataforma de avaliação de livros que foi desenvolvida durante o bootcamp Ignite da Rocketseat. Com apenas um Figma precisávamos desenvolver essa aplicação completa Full Stack com Next.js.",
-      reverse:false
   },
   {
     name: "Teste",
     img: "/photo-programer.jpg",
     description:
       "BookWise é uma plataforma de avaliação de livros que foi desenvolvida durante o bootcamp Ignite da Rocketseat. Com apenas um Figma precisávamos desenvolver essa aplicação completa Full Stack com Next.js.",
-      reverse: true
   },
 ];
 
