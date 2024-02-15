@@ -7,7 +7,7 @@ type DividerExperiencesProps = {
 export const DividerExperiences = ({ logo }: DividerExperiencesProps) => {
   return (
     <div className="relative flex items-start justify-center">
-      <div className="w-8 h-8 z-10">
+      <div className="w-10 h-10 z-10">
         <Image
           src={"/favicon.ico"}
           alt={"Logo"}
