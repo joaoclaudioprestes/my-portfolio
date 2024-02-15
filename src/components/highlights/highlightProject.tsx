@@ -30,7 +30,7 @@ export const HighlightProject = ({
 
         <div className="flex flex-col mt-4 md:mt-0">
           <div className="flex gap-2 items-center">
-            <div className="w-6 h-6">
+            <div className="w-8 h-8">
               <Image
                 src={"/favicon.ico"}
                 width={150}

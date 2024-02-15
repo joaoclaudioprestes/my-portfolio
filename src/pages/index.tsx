@@ -10,6 +10,7 @@ import { TitleSection } from "@/components/titleSection";
 import { Divider } from "@/components/divider";
 import { Highlights } from "@/components/highlights";
 import { LinkEdit } from "@/components/linkEdit";
+import { Experiences } from './../components/experiences/index';
 
 export default function Home() {
   return (
@@ -55,8 +56,8 @@ export default function Home() {
           </div>
 
           <div className="w-[90%]">
-            <span className="relative top-9 left-2 px-3 py-1 bg-white rounded-full text-gray text-sm">
-              Jovem programador
+            <span className="relative top-9 left-2 px-3 py-1 bg-white rounded-full text-gray text-sm font-mono">
+              jovem programador
             </span>
             <Image
               src={"/photo-programer.jpg"}
@@ -86,6 +87,15 @@ export default function Home() {
           <Divider />
           <Highlights />
           <LinkEdit nameLink="Veja todos os meus projeto" srcLink="#" />
+        </div>
+      </section>
+
+      <section className="experiences flex justify-center my-36">
+        <div className="w-[90vw] md:w-[60vw] md:flex md:gap-10 md: items-start">
+          <TitleSection title="Expêriencias" subTitle="tragetoria"/>
+          <div className="">
+            <Experiences />
+          </div>
         </div>
       </section>
     </>
