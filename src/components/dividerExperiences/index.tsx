@@ -6,8 +6,8 @@ type DividerExperiencesProps = {
 
 export const DividerExperiences = ({ logo }: DividerExperiencesProps) => {
   return (
-    <div className="relative flex items-start justify-center">
-      <div className="w-10 h-10 z-10">
+    <div className="flex flex-col items-center gap-1">
+      <div className="w-10 h-10 border border-gray-800 rounded-full p-1">
         <Image
           src={"/favicon.ico"}
           alt={"Logo"}
@@ -16,7 +16,7 @@ export const DividerExperiences = ({ logo }: DividerExperiencesProps) => {
           layout="responsive"
         />
       </div>
-      <span className="h-full border-l border-gray-800 block absolute inset-y-0"></span>
+      <span className="h-full bg-gray-800 w-[1px]"></span>
     </div>
   );
 };

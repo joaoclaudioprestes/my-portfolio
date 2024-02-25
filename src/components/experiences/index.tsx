@@ -7,6 +7,12 @@ const MOCK_EXPERIENCES = [
     logo: "/logo.svg",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis tempus nisi, sed hendrerit nibh porta vitae. Donec id quam eget nulla sollicitudin dictum. Nulla vel eros lorem. Morbi magna nibh, congue vitae mauris sit amet, egestas dictum elit. In porta rhoncus sem, quis condimentum lacus accumsan non. Quisque id purus rhoncus, lacinia ipsum non, molestie nunc."
   },
+  {
+    company: "Prefeitura de Araçoiaba da Serra",
+    job: "Estagiário",
+    logo: "/logo.svg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis tempus nisi, sed hendrerit nibh porta vitae. Donec id quam eget nulla sollicitudin dictum. Nulla vel eros lorem. Morbi magna nibh, congue vitae mauris sit amet, egestas dictum elit. In porta rhoncus sem, quis condimentum lacus accumsan non. Quisque id purus rhoncus, lacinia ipsum non, molestie nunc."
+  },
 ]
 
 export function Experiences() {
