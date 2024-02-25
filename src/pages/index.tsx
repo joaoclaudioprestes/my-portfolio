@@ -11,7 +11,6 @@ import { Divider } from "@/components/divider";
 import { Highlights } from "@/components/highlights";
 import { LinkEdit } from "@/components/linkEdit";
 import { Experiences } from "./../components/experiences/index";
-import { FaLinkedin, faWhatsApp, faEnvelope } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -103,7 +102,7 @@ export default function Home() {
       <section className="contact flex justify-center my-36 text-white">
         <div className="w-[90vw] md:w-[60vw] md:flex md:gap-10 md:items-start">
           <TitleSection title="Contato" subTitle="Entre em contato comigo." />
-          </div>
+        </div>
       </section>
     </>
   );
