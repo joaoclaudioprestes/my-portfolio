@@ -11,8 +11,8 @@ import { Divider } from "@/components/divider";
 import { Highlights } from "@/components/highlights";
 import { LinkEdit } from "@/components/linkEdit";
 import { Experiences } from "./../components/experiences/index";
-import { FaLinkedin, FaWhatsapp } from 'react-icons/fa';
-import { MdEmail } from 'react-icons/md';
+import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import { Footer } from "@/components/footer";
 
 export default function Home() {
@@ -20,8 +20,8 @@ export default function Home() {
     <div>
       <Header />
       <section className="hero h-[90dvh] flex flex-col justify-center items-center font-mono">
-        <h2 className="text-gray-400 text-2xl">Oi, eu sou João!</h2>
-        <h1 className="text-gray-300 text-3xl font-bold text-center">
+        <h2 className="text-black-400 text-2xl">Oi, eu sou João!</h2>
+        <h1 className="text-black-300 text-3xl font-bold text-center">
           Vamos transformar ideias em código?
         </h1>
         <h2 className="text-green-600 text-xl mt-2">Full Stack Developer</h2>
@@ -33,7 +33,7 @@ export default function Home() {
             <h2 className="text-green-600 text-xl font-bold md:text-2xl">
               # Conheça um pouco sobre mim...
             </h2>
-            <p className="text-white text-md mt-4 md:text-lg">
+            <p className="text-black text-md mt-4 md:text-lg">
               Desenvolvedor desde 2023 e estudante de Ciência da Computação. Em
               minha jornada acadêmica, busco constantemente a evolução na área
               Tech, explorando diariamente novas tecnologias e progredindo em
@@ -74,7 +74,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="skills w-full h-auto bg-[#111827] flex justify-center items-center font-mono py-[10rem]">
+      <section className="skills w-full h-auto flex justify-center items-center font-mono py-[10rem]">
         <div className="w-[70vw] md:w-[60vw]">
           <TitleSection title="Conhecimentos" subTitle="competências" />
 
@@ -84,7 +84,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="projects w-full h-auto bg-[#111827] flex flex-col justify-center items-center font-mono py-[10rem]">
+      <section className="projects w-full h-auto flex flex-col justify-center items-center font-mono py-[10rem]">
         <div className="w-[90vw] md:w-[60vw]">
           <TitleSection title="Projetos em destaque..." subTitle="destaques" />
           <Divider />
@@ -95,7 +95,7 @@ export default function Home() {
 
       <section className="experiences flex justify-center my-36">
         <div className="w-[90vw] md:w-[60vw] md:flex md:gap-10 md: items-start">
-          <TitleSection title="Expêriencias" subTitle="tragetoria" />
+          <TitleSection title="Expêrienciasncias" subTitle="tragetoria" />
           <div className="">
             <Experiences />
           </div>
@@ -106,17 +106,29 @@ export default function Home() {
         <div className="w-[90vw] md:w-[60vw] md:flex md:gap-10 md:items-start flex-col">
           <TitleSection title="Contato" subTitle="Entre em contato comigo." />
           <div className="w-full flex flex-col gap-4 justify-center items-center mt-20">
-              <Link href="https://www.linkedin.com/in/jo%C3%A3o-claudio-prestes/" target="_blank" className="w-[80%] md:w-[50%] bg-green-600 text-center p-[10px] rounded-md" >
-                Linkedin
-              </Link>
-        
-              <Link href="tel:+5515997838020" target="_blank" className="w-[80%] md:w-[50%] bg-green-600 text-center p-[10px] rounded-md" >
-                (15) 99783-8020
-              </Link>
-      
-              <Link href="mailto:developerjprestes@gmail.com" target="_blank" className="w-[80%] md:w-[50%] bg-green-600 text-center p-[10px] rounded-md" >
-                developerjprestes@gmail.com
-              </Link>
+            <Link
+              href="https://www.linkedin.com/in/jo%C3%A3o-claudio-prestes/"
+              target="_blank"
+              className="w-[80%] md:w-[50%] bg-green-600 text-center p-[10px] rounded-md"
+            >
+              Linkedin
+            </Link>
+
+            <Link
+              href="tel:+5515997838020"
+              target="_blank"
+              className="w-[80%] md:w-[50%] bg-green-600 text-center p-[10px] rounded-md"
+            >
+              (15) 99783-8020
+            </Link>
+
+            <Link
+              href="mailto:developerjprestes@gmail.com"
+              target="_blank"
+              className="w-[80%] md:w-[50%] bg-green-600 text-center p-[10px] rounded-md"
+            >
+              developerjprestes@gmail.com
+            </Link>
           </div>
         </div>
       </section>

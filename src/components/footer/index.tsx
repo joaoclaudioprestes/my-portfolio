@@ -4,7 +4,7 @@ import { SocialIcons } from "../socialIcons";
 
 export const Footer = () => {
   return (
-    <footer className="w-[95vw] mb-5 m-auto h-[10dvh] flex flex-col items-center justify-between md:items-center md:items-baseline md:flex-row md:w-[60vw] bg-[#030712]">
+    <footer className="w-[95vw] mb-5 md:mb-0 m-auto h-[10dvh] flex flex-col items-center justify-between md:items-center md:items-baseline md:flex-row md:w-[60vw] bg-[#030712]">
       <p className="text-white text-center">
         &copy; 2024 -{" "}
         <a href="" className="font-bold text-green-600">

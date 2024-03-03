@@ -7,21 +7,21 @@ export const SocialIcons = () => {
       <Link
         href="https://www.linkedin.com/in/jo%C3%A3o-claudio-prestes/"
         target="_blank"
-        className="w-8 h-8 flex justify-center items-center text-white hover:text-blue-500 hover:bg-white rounded-full"
+        className="w-8 h-8 flex justify-center items-center text-black hover:text-blue-500 hover:border hover:border-black rounded-full"
       >
         <FaLinkedinIn size={14} />
       </Link>
       <Link
         href="https://github.com/joaoclaudioprestes"
         target="_blank"
-        className="w-8 h-8 flex justify-center items-center text-white hover:text-black hover:bg-white rounded-full"
+        className="w-8 h-8 flex justify-center items-center text-black hover:text-black hover:border hover:border-black rounded-full"
       >
         <FaGithub size={14} />
       </Link>
       <Link
         href="https://www.instagram.com/jpres_tes/"
         target="_blank"
-        className="w-8 h-8 flex justify-center items-center text-white hover:text-[#E4405F] hover:bg-white rounded-full"
+        className="w-8 h-8 flex justify-center items-center text-black hover:text-[#E4405F] hover:border hover:border-black rounded-full"
       >
         <FaInstagram size={14} />
       </Link>
