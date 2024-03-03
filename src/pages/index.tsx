@@ -11,10 +11,12 @@ import { Divider } from "@/components/divider";
 import { Highlights } from "@/components/highlights";
 import { LinkEdit } from "@/components/linkEdit";
 import { Experiences } from "./../components/experiences/index";
+import { FaLinkedin, FaWhatsapp } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Header />
       <section className="hero h-[90dvh] flex flex-col justify-center items-center font-mono">
         <h2 className="text-gray-400 text-2xl">Oi, eu sou João!</h2>
@@ -100,10 +102,23 @@ export default function Home() {
       </section>
 
       <section className="contact flex justify-center my-36 text-white">
-        <div className="w-[90vw] md:w-[60vw] md:flex md:gap-10 md:items-start">
+        <div className="w-[90vw] md:w-[60vw] md:flex md:gap-10 md:items-start flex-col">
           <TitleSection title="Contato" subTitle="Entre em contato comigo." />
+          <div className="w-full flex flex-col gap-4 justify-center items-center">
+              <Link href="https://www.linkedin.com/in/jo%C3%A3o-claudio-prestes/" target="_blank" className="w-[50%] bg-green-600 text-center p-[10px] rounded-md" >
+                Linkedin
+              </Link>
+        
+              <Link href="https://www.linkedin.com/in/jo%C3%A3o-claudio-prestes/" target="_blank" className="w-[50%] bg-green-600 text-center p-[10px] rounded-md" >
+                (15) 99783-8020
+              </Link>
+      
+              <Link href="https://www.linkedin.com/in/jo%C3%A3o-claudio-prestes/" target="_blank" className="w-[50%] bg-green-600 text-center p-[10px] rounded-md" >
+                developerjprestes@gmail.com
+              </Link>
+          </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
