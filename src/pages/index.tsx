@@ -13,6 +13,7 @@ import { LinkEdit } from "@/components/linkEdit";
 import { Experiences } from "./../components/experiences/index";
 import { FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
@@ -104,21 +105,23 @@ export default function Home() {
       <section className="contact flex justify-center my-36 text-white">
         <div className="w-[90vw] md:w-[60vw] md:flex md:gap-10 md:items-start flex-col">
           <TitleSection title="Contato" subTitle="Entre em contato comigo." />
-          <div className="w-full flex flex-col gap-4 justify-center items-center">
-              <Link href="https://www.linkedin.com/in/jo%C3%A3o-claudio-prestes/" target="_blank" className="w-[50%] bg-green-600 text-center p-[10px] rounded-md" >
+          <div className="w-full flex flex-col gap-4 justify-center items-center mt-20">
+              <Link href="https://www.linkedin.com/in/jo%C3%A3o-claudio-prestes/" target="_blank" className="w-[80%] md:w-[50%] bg-green-600 text-center p-[10px] rounded-md" >
                 Linkedin
               </Link>
         
-              <Link href="https://www.linkedin.com/in/jo%C3%A3o-claudio-prestes/" target="_blank" className="w-[50%] bg-green-600 text-center p-[10px] rounded-md" >
+              <Link href="tel:+5515997838020" target="_blank" className="w-[80%] md:w-[50%] bg-green-600 text-center p-[10px] rounded-md" >
                 (15) 99783-8020
               </Link>
       
-              <Link href="https://www.linkedin.com/in/jo%C3%A3o-claudio-prestes/" target="_blank" className="w-[50%] bg-green-600 text-center p-[10px] rounded-md" >
+              <Link href="mailto:developerjprestes@gmail.com" target="_blank" className="w-[80%] md:w-[50%] bg-green-600 text-center p-[10px] rounded-md" >
                 developerjprestes@gmail.com
               </Link>
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 }
