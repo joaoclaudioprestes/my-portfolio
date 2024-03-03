@@ -1,7 +1,6 @@
 import { Skill } from "./skill";
-import { DiHtml5, DiCss3, DiJavascript1 } from "react-icons/di";
 
-const MOCK_SKILLS = [
+/*const MOCK_SKILLS = [
   {
     name: "HTML",
     icon: <DiHtml5 />,
@@ -43,3 +42,4 @@ export const Skills = () => {
     </>
   );
 };
+*/
