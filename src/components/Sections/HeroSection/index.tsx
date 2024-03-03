@@ -23,8 +23,8 @@ export const HeroSection = () => {
           Conhecendo, aprendendo e me desenvolvendo a cada dia.
         </p>
         <div className="flex gap-4">
-          <Button content="Sobre mim" link="#" important={true} />
-          <Button content="Projetos" link="#" />
+          <Button content="Sobre mim" important={true} />
+          <Button content="Projetos" />
         </div>
       </div>
     </div>
