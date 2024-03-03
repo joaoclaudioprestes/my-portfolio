@@ -16,7 +16,7 @@ const NAV_ITEMS = [
 
 export const Header = () => {
   return (
-    <header className="w-[90vw] m-auto h-[10dvh] flex justify-between items-center md:w-[60vw]">
+    <header className="w-[90vw] m-auto h-[15dvh] flex justify-between items-center md:w-[60vw]">
       <div className="container">
         <Link href="/">
           <Image
