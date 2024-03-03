@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+
+import { GitHubLogoIcon, LinkedInLogoIcon, InstagramLogoIcon } from '@radix-ui/react-icons'
 
 export const SocialIcons = () => {
   return (
@@ -9,21 +10,21 @@ export const SocialIcons = () => {
         target="_blank"
         className="w-8 h-8 flex justify-center items-center text-black hover:text-blue-500 hover:border hover:border-black rounded-full"
       >
-        <FaLinkedinIn size={14} />
+        <LinkedInLogoIcon />
       </Link>
       <Link
         href="https://github.com/joaoclaudioprestes"
         target="_blank"
         className="w-8 h-8 flex justify-center items-center text-black hover:text-black hover:border hover:border-black rounded-full"
       >
-        <FaGithub size={14} />
+        <GitHubLogoIcon />
       </Link>
       <Link
         href="https://www.instagram.com/jpres_tes/"
         target="_blank"
         className="w-8 h-8 flex justify-center items-center text-black hover:text-[#E4405F] hover:border hover:border-black rounded-full"
       >
-        <FaInstagram size={14} />
+        <InstagramLogoIcon />
       </Link>
     </div>
   );
