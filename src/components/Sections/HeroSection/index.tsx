@@ -6,10 +6,10 @@ import { Button } from "@/components/UI/button";
 export const HeroSection = () => {
   return (
     <div className="w-[90vw] m-auto flex flex-col items-start gap-14 md:flex-row md:justify-between md:w-[70vw] md:items-center my-20">
-      <div className="flex flex-col md:max-w-[40%]">
+      <div className="md:max-w-[40%]">
         <h1 className="font-regular text-5xl flex items-center md:text-6xl">Olá! 👨🏻‍💻🌍</h1>
         <h1 className="font-regular text-5xl md:text-6xl">Eu sou o João Prestes</h1>
-        <div className="w-full flex items-center h-10 mt-4 md:mt-9">
+        <div className="w-full flex items-center h-10 my-9 md:mt-7 ">
           <SocialIcons />
           <Divider horizontal={true} /> 
           <Clock />
