@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { TechBadge } from "../techBadge";
-import { LinkEdit } from "../linkEdit";
 import { Divider } from "../divider";
 
 type HighlightProjectProps = {
@@ -45,7 +44,7 @@ export const HighlightProject = ({
           <p className="font-medium text-white mt-2">{description}</p>
           <TechBadge />
 
-          <LinkEdit nameLink="Conheça mais sobre o projeto" srcLink="#" />
+        <p>Conheça mais sobre o projeto</p>
         </div>
       </div>
       <Divider />
