@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export const About = () => {
   return (
-    <section className="w-full m-auto flex flex-col items-start gap-14 bg-[#F5F5F0] md:flex-row md:justify-center md:items-center md:p-20 my-20">
+    <section className="w-full m-auto flex flex-col items-start gap-14 bg-[#F5F5F0] md:flex-row md:justify-center md:items-center md:p-20 mt-20">
       <div className="w-[90vw] flex flex-col-reverse justify-center items-center gap-9 md:flex-row md:w-[70vw]">
         <div className="w-[90%]">
           <TitleSection

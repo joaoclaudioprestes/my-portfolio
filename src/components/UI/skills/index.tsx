@@ -1,45 +1,16 @@
-import { Skill } from "./skill";
+type SkillProps = {
+  name: string;
+  icon: any;
+  color: string;
+};
 
-/*const MOCK_SKILLS = [
-  {
-    name: "HTML",
-    icon: <DiHtml5 />,
-    experience: 3,
-  },
-  {
-    name: "CSS",
-    icon: <DiCss3 />,
-    experience: 3,
-  },
-  {
-    name: "JavaScript",
-    icon: <DiJavascript1 />,
-    experience: 3,
-  },
-  {
-    name: "HTML",
-    icon: <DiHtml5 />,
-    experience: 3,
-  },
-  {
-    name: "CSS",
-    icon: <DiCss3 />,
-    experience: 3,
-  },
-  {
-    name: "JavaScript",
-    icon: <DiJavascript1 />,
-    experience: 3,
-  },
-];
-
-export const Skills = () => {
+export const Skill = ({ name, icon, color }: SkillProps) => {
   return (
-    <>
-      {MOCK_SKILLS.map((skill) => (
-        <Skill key={skill.name} {...skill} />
-      ))}
-    </>
+    <div className="w-[150px] h-[130px] bg-white flex justify-center items-center rounded-xl">
+      <div className="flex flex-col-reverse gap-5 justify-center items-center">
+        <h3>{name}</h3>
+        <span className={`text-4xl hover:text-[${color}]`}>{icon}</span>
+      </div>
+    </div>
   );
 };
-*/
