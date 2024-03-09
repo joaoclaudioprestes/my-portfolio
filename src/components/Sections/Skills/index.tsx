@@ -36,10 +36,10 @@ export const Skills = () => {
     },
   ];
   return (
-    <section className="w-full py-20 m-auto flex flex-col items-center gap-14 bg-[#F5F5F0] md:justify-center md:items-start md:p-20">
-      <div className="w-[90vw] flex flex-col justify-center gap-9 md:w-full">
+    <section className="w-full py-20 flex flex-col items-center gap-14 bg-[#F5F5F0] md:justify-center md:items-start md:p-20">
+      <div className="w-[90vw] flex flex-col gap-10 m-auto md:w-[70vw]">
         <TitleSection title="Conhecimentos" subTitle="algumas-skills" />
-        <div className="flex flex-wrap justify-center gap-5">
+        <div className="w-full flex flex-wrap justify-center gap-5">
           {MOCK_SKILLS.map((skill) => (
             <Skill key={skill.name} {...skill} />
           ))}

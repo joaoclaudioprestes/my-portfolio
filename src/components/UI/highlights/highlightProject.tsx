@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { TechBadge } from "../techBadge";
 import { Divider } from "../divider";
+import { EditeditableLink } from "../editeditableLink";
 
 type HighlightProjectProps = {
   img: any;
@@ -39,15 +40,21 @@ export const HighlightProject = ({
                 className="rounded-md"
               />
             </div>
-            <h1 className="font-bold text-white text-2xl">{name}</h1>
+            <h1 className="font-bold text-black text-2xl">{name}</h1>
           </div>
-          <p className="font-medium text-white mt-2">{description}</p>
+          <p className="font-medium text-gray-600 mt-2">{description}</p>
+
           <TechBadge />
 
-        <p>Conheça mais sobre o projeto</p>
+          <div className="mt-14">
+            <EditeditableLink
+              text={"Conheça mais sobre o projeto"}
+              href={"#"}
+            />
+          </div>
         </div>
       </div>
-      <Divider />
+      <Divider vertical={true} />
     </>
   );
 };
