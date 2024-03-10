@@ -23,7 +23,7 @@ export function Experience({
           alt={`Logo da empresa - ${company}`}
           width={100}
           height={100}
-          className="w-96 border-2 border-gray-200 rounded-full p-1"
+          className="w-96 md:w-32 border-2 border-gray-200 rounded-full p-1"
         />
         <span className="bg-gray-200 w-[2px] h-full rounded-full"></span>
       </div>
