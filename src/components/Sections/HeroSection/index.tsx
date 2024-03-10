@@ -28,7 +28,7 @@ export const HeroSection = () => {
         </p>
         <div className="flex gap-4">
           <Button content="Sobre mim" important={true} />
-          <Button content="Projetos" important={false} />
+          <Button content="Projetos" important={false} link="/projects"/>
         </div>
       </div>
     </section>
