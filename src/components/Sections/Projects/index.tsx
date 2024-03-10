@@ -133,9 +133,9 @@ export const Projects = () => {
   return (
     <section className="w-full py-20 flex flex-col items-center gap-14 md:justify-center md:items-start md:p-20">
       <div className="w-[90vw] flex flex-col gap-5 m-auto md:w-[70vw]">
-        <h2 className="text-2xl font-bold mb-4">Projects</h2>
-        <p className="text-gray-500 mb-8">
-          Check out some of my projects below.
+        <h2 className="text-2xl font-bold">Projetos</h2>
+        <p className="text-gray-500">
+          Conheças meus projetos.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {MOCK_PROJECTS &&

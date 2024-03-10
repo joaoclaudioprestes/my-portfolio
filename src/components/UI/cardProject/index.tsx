@@ -19,7 +19,7 @@ export const CardProject = ({
   imgProject,
 }: CardProjectProps) => {
   return (
-    <div className="w-auto h-[400px] flex-col justify-between p-2 rounded-md border">
+    <div className="w-auto h-[410px] flex flex-col justify-between p-2 rounded-md border">
       <div>
         <Image
           src={`/img/${imgProject}`}
@@ -30,18 +30,20 @@ export const CardProject = ({
           className="rounded-md"
         />
       </div>
-      <div className="flex-col">
+
+
+
+      <div className="flex flex-col">
         <h3 className="text-xl font-bold">{nameProject}</h3>
         <p className="text-md">{descriptionProject}</p>
-        <div className="flex gap-2">
-          <Link href={linkRepository} className="" target="_blank">
+        <div className="flex gap-2 mt-4">
+          <Link href={linkRepository} className="w-fit flex items-center gap-2 p-2 border border-black rounded-md text-white bg-black" target="_blank">
               <FaGithub size={14} className="" />
               Repository
          </Link>
-          <Link href={linkDeploy} target="_blank">
+          <Link href={linkDeploy} className="w-fit flex items-center gap-2 p-2 border border-black rounded-md" target="_blank">
               <MdOutlineWebAsset size={14} className="" />
               Deploy
-           
           </Link>
         </div>
       </div>
