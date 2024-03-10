@@ -1,8 +1,13 @@
+import { Footer } from "@/components/Sections/Footer";
+import { Header } from "@/components/Sections/Header";
+import { Projects } from '@/components/Sections/Projects';
 
-export default function Projects() {
+export default function ProjectsPage() {
   return (
     <>
-      <Head
+      <Header />
+      <Projects />
+      <Footer />
     </>
   )
 }
