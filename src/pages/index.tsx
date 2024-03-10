@@ -5,7 +5,7 @@ import { HighlightsSection } from "@/components/Sections/HighlightsSection";
 import { Experience } from "@/components/Sections/Experience";
 import { Services } from "@/components/Sections/Services";
 import { Contact } from "@/components/Sections/Contact";
-import { Footer } from "@/components/Sections/Footer";
+import { Footer } from "@/components/Sections/FooterSection";
 import { Header } from "@/components/Sections/Header";
 
 export default function Home() {
