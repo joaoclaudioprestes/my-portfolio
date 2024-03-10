@@ -1,4 +1,4 @@
-import { Header } from "@/components/UI/header"
+import { Header } from "@/components/Sections/header"
 
 export default function Projects() {
   return (

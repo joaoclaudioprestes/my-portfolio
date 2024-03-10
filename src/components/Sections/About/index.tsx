@@ -37,7 +37,7 @@ export const About = () => {
               alt="Foto programador"
               width={30}
               height={30}
-              className="rounded-sm"
+              className="rounded-full"
             />
             jovem programador
           </span>

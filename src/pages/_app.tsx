@@ -1,4 +1,4 @@
-import { MyHead } from "@/components/UI/myHead";
+import { MyHead } from "@/components/Sections/myHead";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { Inter } from "next/font/google";
