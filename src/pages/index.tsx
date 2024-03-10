@@ -1,4 +1,4 @@
-import { Header } from "@/components/Sections/header";
+import { Header } from "@/components/Sections/Header";
 import React from "react";
 import { HeroSection } from "./../components/Sections/HeroSection/index";
 import { About } from "@/components/Sections/About";
@@ -7,7 +7,7 @@ import { Projects } from "@/components/Sections/Projects";
 import { Experience } from "@/components/Sections/Experience";
 import { Services } from "@/components/Sections/Services";
 import { Contact } from "@/components/Sections/Contact";
-import { Footer } from "@/components/Sections/footer";
+import { Footer } from "@/components/Sections/Footer";
 
 export default function Home() {
   return (
