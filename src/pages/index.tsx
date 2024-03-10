@@ -6,7 +6,7 @@ import { Experience } from "@/components/Sections/Experience";
 import { Services } from "@/components/Sections/Services";
 import { Contact } from "@/components/Sections/Contact";
 import { Footer } from "@/components/Sections/FooterSection";
-import { Header } from "@/components/Sections/Header";
+import { Header } from "@/components/Sections/HeaderSection";
 
 export default function Home() {
   return (
