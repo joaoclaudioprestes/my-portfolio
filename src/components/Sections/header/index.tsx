@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { NavItem } from "./nav-item";
 
 const NAV_ITEMS = [
@@ -21,7 +22,9 @@ export const Header = () => {
 
       <nav className="flex gap-2 justify-between">
         {NAV_ITEMS.map((item) => (
-          <NavItem key={item.label} {...item} />
+            <p href={item.label} key={item.label}>
+              <NavItem {...item} />
+            </p>
         ))}
       </nav>
     </header>
