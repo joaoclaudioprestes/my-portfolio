@@ -1,7 +1,6 @@
 import { TitleSection } from "@/components/UI/titleSection";
 import { BiCodeBlock } from "react-icons/bi";
 import { GrNavigate } from "react-icons/gr";
-import { MdWeb } from "react-icons/md";
 
 
 const MOCK_SERVICES = [
