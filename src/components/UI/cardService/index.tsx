@@ -23,7 +23,7 @@ export const CardService = ({img, title, icon, sub}: CardServiceProps) => {
           className="w-full h-fit rounded-md md:w-24"
         />
     
-          <div className="p-2 flex flex-col items-center text-center gap-3">
+          <div className="p-2 h-full flex flex-col items-center justify-start text-center gap-3">
             <div className="text-4xl">{icon}</div>
             <h3 className="text-2xl font-bold text-black">{title}</h3>
             <p className="text-gray-600 text-lg text-center">{sub}</p>
