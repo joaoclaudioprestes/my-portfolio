@@ -1,10 +1,12 @@
-import { Header } from "@/components/Sections/Header"
+import { Header } from "@/components/Sections/header"
+import { Footer } from "@/components/Sections/footer"
 
 export default function Projects() {
   return (
     <>
     <Header />
-      <h1>Projects</h1>
+    <Projects />
+    <Footer />
     </>
   )
 }
