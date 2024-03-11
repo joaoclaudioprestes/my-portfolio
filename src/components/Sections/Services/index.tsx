@@ -8,19 +8,19 @@ import { CardService } from "@/components/UI/cardService";
 
 const MOCK_SERVICES = [
   {
-    img: "/software.jpg",
+    img: "/img/mobile.jpg",
     icon: <CiMobile2 />,
     title: "Mobile",
     sub: "Desenvolvo aplicações móveis de acordo com suas preferências.",
   },
   {
-    img: "/software.jpg",
+    img: "/img/ui.jpg",
     icon: <PiFigmaLogo />,
     title: "UI",
     sub: "Projeto interfaces claras e objetivas e de fácil usabilidade do usuário.",
   },
   {
-    img: "/software.jpg",
+    img: "/img/web.jpg",
     icon: <CiDesktop />,
     title: " Web",
     sub: "Desenvolvo projetos web, como blogs, sites, landing pages, e-commerce etc...",

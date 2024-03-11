@@ -16,9 +16,9 @@ const NAV_ITEMS = [
 export const Header = () => {
   return (
     <header className="w-[90vw] m-auto h-[15dvh] flex justify-between items-center md:w-[70vw]">
-      <div>
+      <Link href="/">
         <Image src="/logo.svg" alt="Logo" width={70} height={70} />
-      </div>
+      </Link>
 
       <nav className="flex gap-2 justify-between">
         {NAV_ITEMS.map((item) => (

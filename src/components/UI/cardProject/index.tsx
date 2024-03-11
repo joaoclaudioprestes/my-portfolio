@@ -39,7 +39,7 @@ export const CardProject = ({
         <div className="flex gap-2 mt-4">
           <Link href={linkRepository} className="w-fit flex items-center gap-2 p-2 border border-black rounded-md text-white bg-black" target="_blank">
               <FaGithub size={14} className="" />
-              Repository
+              Repositorio
          </Link>
           <Link href={linkDeploy} className="w-fit flex items-center gap-2 p-2 border border-black rounded-md" target="_blank">
               <MdOutlineWebAsset size={14} className="" />

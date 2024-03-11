@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link"
 import { SocialIcons } from "../../UI/socialIcons";
 
 export const Footer = () => {
@@ -10,7 +11,9 @@ export const Footer = () => {
 
       <div className="flex gap-3 justify-center items-center">
         <p>Powered by</p>
-        <Image src="/logo.svg" alt="Logo" width={40} height={40} />
+          <Link href="/">
+            <Image src="/logo.svg" alt="Logo" width={40} height={40} />
+          </Link>
       </div>
       <SocialIcons />
     </footer>
