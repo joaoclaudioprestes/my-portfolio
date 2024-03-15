@@ -22,7 +22,7 @@ export const About = () => {
           <TechBadge />
 
           <div className="flex gap-6 items-baseline my-6">
-            <Button content="Entre em contato ->" important={true} />
+            <Button content="Entre em contato" important={true} />
             <SocialIcons />
           </div>
         </div>

@@ -21,7 +21,7 @@ export const HeroSection = () => {
       </div>
       <div className="flex flex-col gap-4 md:w-[40%]">
         <h2 className="text-2xl font-regular md:text-3xl">
-          Um Desenvolvedor Full-Stack em São Paulo, Brasil.
+          Um <span className="font-bold">Desenvolvedor Full-Stack</span> em São Paulo, Brasil.
         </h2>
         <p className="text-md font-regular">
           Conhecendo, aprendendo e me desenvolvendo a cada dia.

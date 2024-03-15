@@ -11,7 +11,7 @@ export const CardService = ({ img, title, icon, sub }: CardServiceProps) => {
   return (
     <div
       key={-title}
-      className="p-4 border border-transparent rounded-md w-full bg-white flex flex-col gap-3 items-center h-full"
+      className="p-4 border border-transparent rounded-md w-full bg-white flex flex-col gap-3 items-center h-[420px]"
     >
       <div className="w-full">
         <Image

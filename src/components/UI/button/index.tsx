@@ -6,7 +6,6 @@ type ButtonProps = {
 
 export const Button = ({ content, important, link }: ButtonProps) => {
   return (
-    <a href={`${link === undefined && "#"}`}>
       <button
         className={`${
           important ? `bg-black text-white` : `bg-white text-black`
@@ -14,6 +13,5 @@ export const Button = ({ content, important, link }: ButtonProps) => {
       >
         <a href={link}>{content}</a>
       </button>
-    </a>
   );
 };
