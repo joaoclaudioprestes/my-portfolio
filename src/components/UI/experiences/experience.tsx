@@ -21,7 +21,7 @@ export function Experience({
   return (
     <div className="flex gap-4 w-full mt-4">
       <div className="flex flex-col items-center gap-1 rounded-full">
-        <Link href={link} target="_blank">
+        <Link href="/" target="_blank">
           <Image
             src={logo}
             alt={`Logo da empresa - ${company}`}
