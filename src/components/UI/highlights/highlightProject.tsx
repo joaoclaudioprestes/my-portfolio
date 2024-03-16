@@ -17,18 +17,18 @@ export const HighlightProject = ({
   return (
     <>
       <div className="flex flex-col gap-7 md:flex-row ">
-        <div className="">
+        <div className="md:w-[50%]">
           <Image
             src={img}
             layout="responsive"
             width={500}
-            height={300}
+            height={500}
             alt={`Imagem do projeto - ${name}`}
             className="rounded-md"
           />
         </div>
 
-        <div className="flex flex-col mt-4 md:mt-0">
+        <div className="flex flex-col mt-4 md:mt-0 md:w-[50%]">
           <div className="flex gap-2 items-center">
             <div className="w-8 h-8">
               <Image
