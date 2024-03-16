@@ -2,7 +2,7 @@ import { Skill } from "@/components/UI/skills";
 import { TitleSection } from "@/components/UI/titleSection";
 import { DiHtml5, DiCss3, DiJavascript1, DiJava } from "react-icons/di";
 import { FaReact, FaNodeJs, FaPython } from "react-icons/fa";
-import { SiTypescript, SiMysql, SiNextdotjs, SiStyledcomponents } from "react-icons/si";
+import { SiTypescript, SiMysql, SiNextdotjs, SiStyledcomponents, SiExpress } from "react-icons/si";
 
 export const Skills = () => {
   const MOCK_SKILLS = [
@@ -37,6 +37,12 @@ export const Skills = () => {
       color: "#8CC84B",
     },
     {
+      name: "Express.js",
+      icon: <SiExpress />,
+      color: "#000000",
+    },
+  
+    {
       name: "TypeScript",
       icon: <SiTypescript />,
       color: "#3178C6",
@@ -49,7 +55,7 @@ export const Skills = () => {
     {
       name: "Java",
       icon: <DiJava />,
-      color: "#007396",
+      color: "#E14A3A",
     },
     {
       name: "Python",
