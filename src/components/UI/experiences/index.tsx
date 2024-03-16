@@ -3,11 +3,11 @@ import { Experience } from "./experience";
 const MOCK_EXPERIENCES = [
   {
     company: "Prefeitura de Araçoiaba da Serra",
-    job: "Estagiário",
+    job: "Estagiário de TI",
     logo: "/img/logo-prefeitura.png",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis tempus nisi, sed hendrerit nibh porta vitae. Donec id quam eget nulla sollicitudin dictum. Nulla vel eros lorem. Morbi magna nibh, congue vitae mauris sit amet, egestas dictum elit. In porta rhoncus sem, quis condimentum lacus accumsan non. Quisque id purus rhoncus, lacinia ipsum non, molestie nunc.",
-      link: "https://www.aracoiaba.sp.gov.br",
+      "Como estagiário de TI, fui responsável por auxiliar na manutenção e suporte técnico de computadores, instalação e configuração de softwares, e suporte aos usuários internos. Além disso, participei de projetos de infraestrutura de redes e servidores, adquirindo conhecimento prático em ambientes corporativos.",
+    link: "https://www.aracoiaba.sp.gov.br",
   },
 ];
 

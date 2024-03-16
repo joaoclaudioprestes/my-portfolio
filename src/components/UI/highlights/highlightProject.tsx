@@ -20,9 +20,9 @@ export const HighlightProject = ({
         <div className="">
           <Image
             src={img}
-            width={150}
-            height={150}
             layout="responsive"
+            width={500}
+            height={300}
             alt={`Imagem do projeto - ${name}`}
             className="rounded-md"
           />
@@ -33,9 +33,8 @@ export const HighlightProject = ({
             <div className="w-8 h-8">
               <Image
                 src={"/favicon.ico"}
-                width={150}
-                height={150}
-                layout="responsive"
+                width={32}
+                height={32}
                 alt={`Logo do projeto - ${name}`}
                 className="rounded-md"
               />
@@ -46,7 +45,7 @@ export const HighlightProject = ({
 
           <TechBadge />
 
-          <div className="mt-14">
+          <div className="mt-6">
             <EditeditableLink
               text={"Conheça mais sobre o projeto"}
               href={"#"}

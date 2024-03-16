@@ -31,20 +31,18 @@ export const CardProject = ({
         />
       </div>
 
-
-
       <div className="flex flex-col">
         <h3 className="text-xl font-bold">{nameProject}</h3>
         <p className="text-md">{descriptionProject}</p>
         <div className="flex gap-2 mt-4">
-          <Link href={linkRepository} className="w-fit flex items-center gap-2 p-2 border border-black rounded-md text-white bg-black" target="_blank">
-              <FaGithub size={14} className="" />
-              Repositorio
-         </Link>
-          <Link href={linkDeploy} className="w-fit flex items-center gap-2 p-2 border border-black rounded-md" target="_blank">
-              <MdOutlineWebAsset size={14} className="" />
-              Deploy
-          </Link>
+          <a href={linkRepository} className="w-fit flex items-center gap-2 p-2 border border-black rounded-md text-white bg-black" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={14} className="" />
+            Repositório
+          </a>
+          <a href={linkDeploy} className="w-fit flex items-center gap-2 p-2 border border-black rounded-md" target="_blank" rel="noopener noreferrer">
+            <MdOutlineWebAsset size={14} className="" />
+            Deploy
+          </a>
         </div>
       </div>
     </div>

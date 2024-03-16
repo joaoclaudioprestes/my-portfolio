@@ -17,13 +17,13 @@ const MOCK_SERVICES = [
     img: "/img/ui.jpg",
     icon: <PiFigmaLogo />,
     title: "UI",
-    sub: "Projeto interfaces claras e objetivas e de fácil usabilidade do usuário.",
+    sub: "Projeto interfaces claras e objetivas e de fácil usabilidade para o usuário.",
   },
   {
     img: "/img/web.jpg",
     icon: <CiDesktop />,
-    title: " Web",
-    sub: "Desenvolvo projetos web, como blogs, sites, landing pages, e-commerce etc...",
+    title: "Web",
+    sub: "Desenvolvo projetos web, como blogs, sites, landing pages, e-commerce, etc...",
   },
 ];
 
