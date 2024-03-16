@@ -19,7 +19,7 @@ export const CardProject = ({
   imgProject,
 }: CardProjectProps) => {
   return (
-    <div className="w-auto h-[410px] flex flex-col justify-between p-2 rounded-md border">
+    <div className="w-[400px] h-[420px] flex flex-col justify-between p-2 rounded-md border">
       <div>
         <Image
           src={`/img/${imgProject}`}

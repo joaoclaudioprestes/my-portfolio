@@ -137,7 +137,7 @@ export const Projects = () => {
         <p className="text-gray-500">
           Aqui estão alguns dos projetos que desenvolvi. Fique à vontade para explorá-los!
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="flex flex-wrap justify-center gap-4">
           {MOCK_PROJECTS &&
             MOCK_PROJECTS.map((project) => (
               <CardProject
