@@ -10,8 +10,9 @@ export const HighlightsSection = () => {
         <TitleSection title="Projetos em destaque..." subTitle="destaques" />
         <Divider />
         <Highlights />
-        <EditeditableLink text="Veja todos os meus projeto" href="/projects" />
+        <EditeditableLink text="Veja todos os meus projetos" href="/projects" />
       </div>
     </section>
   );
 };
+

@@ -9,7 +9,7 @@ export const About = () => {
     <section className="w-full m-auto bg-[#F5F5F0] md:justify-start md:items-center md:p-20 mt-20">
       <div className="w-[90vw] m-auto flex flex-col-reverse justify-center items-center gap-9 md:flex-row md:w-[70vw]">
         <div className="w-[90%]" id="about">
-        <TitleSection title="Sobre mim" subTitle="Conheça-um-pouco-sobre-mim" />
+          <TitleSection title="Sobre mim" subTitle="Conheça um pouco sobre mim" />
           <p className="text-black text-md mt-4 md:text-lg">
             Desenvolvedor desde 2023 e estudante de Ciência da Computação. Em
             minha jornada acadêmica, busco constantemente a evolução na área
@@ -36,7 +36,7 @@ export const About = () => {
               height={30}
               className="rounded-full"
             />
-            jovem programador
+            Jovem programador
           </span>
           <Image
             src={"/photo-programer.jpg"}

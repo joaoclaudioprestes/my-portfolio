@@ -24,7 +24,7 @@ export const HeroSection = () => {
           Um <span className="font-bold">Desenvolvedor Full-Stack</span> em São Paulo, Brasil.
         </h2>
         <p className="text-md font-regular">
-          Conhecendo, aprendendo e me desenvolvendo a cada dia.
+        Explorando, aprendendo e crescendo a cada dia.
         </p>
         <div className="flex gap-4">
           <Button content="Sobre mim" important={true} />

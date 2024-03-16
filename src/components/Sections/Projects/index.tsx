@@ -40,29 +40,29 @@ const MOCK_PROJECTS = [
     imgProject: "contador.png",
   },
   {
-    nameProject: "Gerador de Númros",
+    nameProject: "Gerador de Números",
     descriptionProject:
-      "Gerador de números aléatorios criado com HTML, CSS e JS.",
+      "Gerador de números aleatórios criado com HTML, CSS e JS.",
     linkRepository: "https://github.com/joaoclaudioprestes/random-number",
     linkDeploy: "https://random-number-woad-beta.vercel.app/",
     imgProject: "gerador.png",
   },
   {
-    nameProject: "Projeto Lampada",
+    nameProject: "Projeto Lâmpada",
     descriptionProject: "Projeto criado com HTML, CSS e JS.",
     linkRepository: "https://github.com/joaoclaudioprestes/project-lamp",
     linkDeploy: "https://project-lamp.vercel.app/",
     imgProject: "lampada.png",
   },
   {
-    nameProject: "Projeto Semáfaro",
+    nameProject: "Projeto Semáforo",
     descriptionProject: "Projeto criado com HTML, CSS e JS.",
     linkRepository: "https://github.com/joaoclaudioprestes/traffic-lights",
     linkDeploy: "https://traffic-lights-green.vercel.app/",
     imgProject: "semafaro.png",
   },
   {
-    nameProject: "Projeto Calculadora de  Média",
+    nameProject: "Projeto Calculadora de Média",
     descriptionProject: "Projeto criado com HTML, CSS e JS.",
     linkRepository: "https://github.com/joaoclaudioprestes/grade-average",
     linkDeploy: "https://grade-average.vercel.app/",
@@ -122,7 +122,7 @@ const MOCK_PROJECTS = [
   },
   {
     nameProject: "Buscar usuário GitHub - React",
-    descriptionProject: "Projeto criado com com React e Tailwindcss.",
+    descriptionProject: "Projeto criado com React e Tailwind CSS.",
     linkRepository: "https://github.com/joaoclaudioprestes/search-user-github",
     linkDeploy: "https://search-user-github-sable.vercel.app/",
     imgProject: "usuario.png",
@@ -135,7 +135,7 @@ export const Projects = () => {
       <div className="w-[90vw] flex flex-col gap-5 m-auto md:w-[70vw]">
         <h2 className="text-2xl font-bold">Projetos</h2>
         <p className="text-gray-500">
-          Conheças meus projetos.
+          Conheça meus projetos.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {MOCK_PROJECTS &&
