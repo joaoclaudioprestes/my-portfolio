@@ -1,6 +1,7 @@
 import { Skill } from "@/components/UI/skills";
 import { TitleSection } from "@/components/UI/titleSection";
 import { DiHtml5, DiCss3, DiJavascript1 } from "react-icons/di";
+import { FaCss3 } from "react-icons/fa6";
 
 
 export const Skills = () => {
@@ -10,6 +11,12 @@ export const Skills = () => {
       icon: <DiHtml5 />,
       color: "#DD4B25",
     },
+    {
+      name: "CSS",
+      icon: <FaCss3 />,
+      color: "#DD4B25",
+    },
+
 
   ];
 
