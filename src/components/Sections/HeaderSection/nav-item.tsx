@@ -14,7 +14,9 @@ export const NavItem = ({ label, href }: NavItemProps) => {
   return (
     <Link
       href={href}
-      className={`${!isActive ? `text-gray-500` : `text-black-300`} flex gap-1 text-md`}
+      className={`${
+        !isActive ? `text-gray-500` : `text-black-300`
+      } flex gap-1 text-md`}
     >
       {label}
     </Link>

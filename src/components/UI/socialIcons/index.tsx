@@ -1,6 +1,10 @@
 import Link from "next/link";
 
-import { GitHubLogoIcon, LinkedInLogoIcon, InstagramLogoIcon } from '@radix-ui/react-icons'
+import {
+  GitHubLogoIcon,
+  LinkedInLogoIcon,
+  InstagramLogoIcon,
+} from "@radix-ui/react-icons";
 
 export const SocialIcons = () => {
   return (

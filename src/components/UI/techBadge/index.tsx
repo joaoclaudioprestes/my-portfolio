@@ -1,24 +1,20 @@
+import { ComponentProps } from "react";
 import { Tech } from "./tech";
+import { motion } from "framer-motion";
 
-const MOCK_TECHS = [
-  {
-    name: "React.js",
-  },
-  {
-    name: "Next.js",
-  },
-  {
-    name: "UI",
-  },
-  
-];
+type TechProps = ComponentProps<typeof motion.div> & {
+  ArrayTech: Array<string>;
+};
 
-export const TechBadge = () => {
+export const TechBadge = ({ ArrayTech, ...props }: TechProps) => {
   return (
-    <div className="flex flex-row flex-wrap gap-2 mt-4 w-[70%] md">
-      {MOCK_TECHS.map((tech) => (
-        <Tech key={tech.name} {...tech} />
+    <motion.div
+      className="flex flex-row flex-wrap gap-2 mt-4 w-[70%]"
+      {...props}
+    >
+      {ArrayTech.map((tech, index) => (
+        <Tech key={index} name={tech} />
       ))}
-    </div>
+    </motion.div>
   );
 };

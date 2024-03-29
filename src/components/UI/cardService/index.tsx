@@ -1,16 +1,25 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { ComponentProps } from "react";
 
-type CardServiceProps = {
+type CardServiceProps = ComponentProps<typeof motion.div> & {
   img: any;
   title: string;
   icon: any;
   sub: string;
 };
 
-export const CardService = ({ img, title, icon, sub }: CardServiceProps) => {
+export const CardService = ({
+  img,
+  title,
+  icon,
+  sub,
+  ...props
+}: CardServiceProps) => {
   return (
-    <div
+    <motion.div
       className="p-4 border border-transparent rounded-md w-full bg-white flex flex-col gap-3 items-center h-min-full"
+      {...props}
     >
       <div className="w-full">
         <Image
@@ -28,6 +37,6 @@ export const CardService = ({ img, title, icon, sub }: CardServiceProps) => {
         <h3 className="text-2xl font-bold text-black">{title}</h3>
         <p className="text-gray-600 text-lg text-center">{sub}</p>
       </div>
-    </div>
+    </motion.div>
   );
 };

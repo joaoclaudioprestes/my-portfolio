@@ -135,7 +135,8 @@ export const Projects = () => {
       <div className="w-[90vw] flex flex-col gap-5 m-auto md:w-[70vw]">
         <h2 className="text-2xl font-bold">Meus Projetos</h2>
         <p className="text-gray-500">
-          Aqui estão alguns dos projetos que desenvolvi. Fique à vontade para explorá-los!
+          Aqui estão alguns dos projetos que desenvolvi. Fique à vontade para
+          explorá-los!
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           {MOCK_PROJECTS &&
@@ -147,6 +148,10 @@ export const Projects = () => {
                 linkRepository={project.linkRepository}
                 linkDeploy={project.linkDeploy}
                 imgProject={project.imgProject}
+                initial={{ opacity: 0, x: -100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -100 }}
+                transition={{ duration: 0.5 }}
               />
             ))}
         </div>

@@ -22,9 +22,9 @@ export const Header = () => {
 
       <nav className="flex gap-2 justify-between">
         {NAV_ITEMS.map((item) => (
-            <span key={item.label}>
-              <NavItem {...item} />
-            </span>
+          <span key={item.label}>
+            <NavItem {...item} />
+          </span>
         ))}
       </nav>
     </header>
