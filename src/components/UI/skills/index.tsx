@@ -10,11 +10,11 @@ type SkillProps = ComponentProps<typeof motion.div> & {
 export const Skill = ({ name, icon, color, ...props }: SkillProps) => {
   return (
     <motion.div
-      className="w-[180px] h-[150px] bg-white flex justify-center items-center rounded-xl"
+      className="w-[132px] h-[140px] md:w-[180px] md:h-[150px] bg-white flex justify-center items-center rounded-xl"
       {...props}
     >
       <div className="flex flex-col-reverse gap-5 justify-center items-center">
-        <h3>{name}</h3>
+        <h3 className="text-center">{name}</h3>
         <span className={`text-5xl`} style={{ color: color }}>
           {icon}
         </span>
