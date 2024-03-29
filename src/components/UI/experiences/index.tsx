@@ -6,7 +6,7 @@ const MOCK_EXPERIENCES = [
     job: "Estagiário de TI",
     logo: "/img/logo-prefeitura.png",
     description:
-      "Como estagiário de TI, fui responsável por auxiliar na manutenção e suporte técnico de computadores, instalação e configuração de softwares, e suporte aos usuários internos. Além disso, participei de projetos de infraestrutura de redes e servidores, adquirindo conhecimento prático em ambientes corporativos.",
+      "Como estagiário de TI, minhas responsabilidades incluem auxiliar na manutenção e suporte técnico de computadores, realizar instalação e configuração de softwares e fornecer suporte aos usuários internos. Além disso, participei ativamente de projetos relacionados à infraestrutura de redes e servidores, o que me proporcionou um conhecimento prático valioso em ambientes corporativos.",
     link: "https://www.aracoiaba.sp.gov.br",
   },
 ];
