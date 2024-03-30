@@ -45,8 +45,8 @@ export const Contact = () => {
           </button>
           <button className="w-[90%] h-10 flex justify-around items-center bg-white border border-black rounded-lg md:w-[50%]">
             <MdEmail className="relative" />
-            <Link href="malito:joaoprestes17@outlook.com">
-              <span>joaoprestes17@outlook.com</span>
+            <Link href="malito:joaoprestesdev@gmail.com">
+              <span>joaoprestesdev@gmail.com</span>
             </Link>
             <span></span>
           </button>
